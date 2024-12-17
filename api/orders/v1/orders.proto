@@ -1,0 +1,42 @@
+syntax = "3";
+
+service OrderService{
+  rpc CreateOrder(CreateOrderRequest) returns (CreateOrderResponse){}
+  rpc GetOrder(GetOrderRequest) returns (GetOrderResponse){}
+  rpc UpdateOrder(UpdateOrderRequest) returns (UpdateOrderResponse){}
+  rpc DeleteOrder(DeleteOrderRequest) returns (DeleteOrderResponse){}
+
+}
+
+message CreateOrderRequest{
+
+}
+
+message CreateOrderResponse{
+
+}
+
+
+message GetOrderRequest{
+
+}
+
+message GetOrderResponse{
+
+}
+
+message DeleteOrderRequest{
+
+}
+
+message DeleteOrderResponse{
+
+}
+
+message UpdateOrderRequest{
+
+}
+
+message UpdateOrderResponse{
+
+}
